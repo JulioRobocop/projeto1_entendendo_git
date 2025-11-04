@@ -24,3 +24,20 @@ $ git commit -m "resumir a mudança"
 
 // enviar para o repositório do github
 $ git push
+
+// verificar os histórico
+$ git reflog
+
+// mudar para as versões antigas localmente
+$ git reset --hard XXXX // passar o código da atualização
+
+//verificar as branchs do meu projeto
+$ git branch
+
+//criar uma branch
+$ git branch "nome da branch"
+
+// altera de branch no seu projeto
+$ git checkout "nome da branch"
+
+ 
