@@ -40,4 +40,14 @@ $ git branch "nome da branch"
 // altera de branch no seu projeto
 $ git checkout "nome da branch"
 
- 
+// Unir duas branch, na branch principal (tem que estar nessa) voce puxa o repositório da outra branch
+$ git merge "o nome da outra branch de onde voce quer puxar as coisas e trazer para esta"
+
+// Antes de realizar o merg, entre na sua branch principal e faça isso
+$ git pull // para trazer as atualizações que foram feitas no site, para minha, evitando conflito entre as pessoas que estão fazendo o código
+
+// e enfim, jogar de volta para o repositório
+$ git push
+
+// criar uma branch baseada na atual (NÃO USAR AS ASPAS)
+$ git checkout -b "nome da branch" "nome da branch base"
