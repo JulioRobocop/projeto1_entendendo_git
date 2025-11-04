@@ -46,7 +46,7 @@ $ git merge "o nome da outra branch de onde voce quer puxar as coisas e trazer p
 // Antes de realizar o merg, entre na sua branch principal e faça isso
 $ git pull // para trazer as atualizações que foram feitas no site, para minha, evitando conflito entre as pessoas que estão fazendo o código
 
-// e enfim, jogar de volta para o repositório
+// e enfim, jogar de volta para o repositório no servidor
 $ git push
 
 // criar uma branch baseada na atual (NÃO USAR AS ASPAS)
