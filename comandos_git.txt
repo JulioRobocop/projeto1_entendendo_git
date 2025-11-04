@@ -1,0 +1,26 @@
+$ git status // seve para observar se os arquivos estarão no controle de versão do git
+
+$ git add "nome_do_arquivo" // passa um arquivo isolado para o o controle de versão
+
+$ git add . // adiciona todos os arquivos da pasta para versão de controle
+
+$ git commit -m "commit inicial" // recordar as mudanças no repositório local e uma -m (mensagem)
+
+$ git config --global user.email "meuemail@email.com" // essas duas partes são para configurar o git e conectá-lo com o github
+$ git config --global user.name "Meu nome" // utilizando seu usuário
+
+$ git remote add origin https://github.com/JulioRobocop/projeto1_entendendo_git // definir para onde o código sera enviado
+$ git push --set-upstream origin master // enviar inicialmente para a master
+
+// Para atualizar alguma coisa, deve-se checar os status primeiramente: 
+$ git status
+
+//Adicionar os arquivos modificados ou simples arquivo:
+$ git add "nome_do_arquivo" // esse ou o de baixo
+$ git add .
+
+// mandar um commit com uma mensagem falando oq foi alterado
+$ git commit -m "resumir a mudança"
+
+// enviar para o repositório do github
+$ git push
